@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Srcset</title>
+  </head>
+  <body>
+    <picture>
+      <source
+        srcset="https://placehold.co/1100x200"
+        media="(min-width: 650px)"
+      />
+      <source
+        srcset="https://placehold.co/800x200"
+        media="(min-width: 465px)"
+      />
+      <img src="https://placehold.co/500x200" alt="..." />
+    </picture>
+
+    <!-- <img
+      src="https://placehold.co/600x400"
+      srcset="
+        https://placehold.co/500x200   500w,
+        https://placehold.co/800x300   800w,
+        https://placehold.co/1200x800 1200w
+      "
+      alt="..."
+    /> -->
+  </body>
+</html>

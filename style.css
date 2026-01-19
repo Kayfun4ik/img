@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(185, 134, 68);
+  box-sizing: border-box;
+}
+
+image,
+source,
+picture {
+  /* width: 100vw; */
+}
