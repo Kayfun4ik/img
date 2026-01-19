@@ -7,7 +7,7 @@
     <title>Image Srcset</title>
   </head>
   <body>
-    <picture>
+    <!-- <picture>
       <source
         srcset="https://placehold.co/1100x200"
         media="(min-width: 650px)"
@@ -17,6 +17,11 @@
         media="(min-width: 465px)"
       />
       <img src="https://placehold.co/500x200" alt="..." />
+    </picture> -->
+    <picture>
+      <source srcset="https://placehold.co/1100x200.webp" type="image/webp" />
+      <source srcset="https://placehold.co/1100x200.jpeg" type="image/jpeg" />
+      <img src="https://placehold.co/500x200" alt="..." class="point" />
     </picture>
 
     <!-- <img
